@@ -1,0 +1,30 @@
+{
+  "name": "api-review",
+  "version": "1.0.0",
+  "description": "a quick api refresher course  with express and couchdb",
+  "main": "app.js",
+  "scripts": {
+    "start": "PORT=4000 node app ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrs-innovation-center/api-review.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrs-innovation-center/api-review/issues"
+  },
+  "homepage": "https://github.com/jrs-innovation-center/api-review#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "node-http-error": "^1.1.0",
+    "pouchdb-http": "^6.0.2",
+    "pouchdb-mapreduce": "^6.1.2",
+    "ramda": "^0.23.0"
+  }
+}
